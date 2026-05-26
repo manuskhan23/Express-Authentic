@@ -396,6 +396,63 @@ Only the `dist/` folder is published.
 
 ---
 
+---
+
+# NPM Publishing
+
+Only the `.env` file is published.
+
+```
+# =========================================
+# SERVER CONFIG
+# =========================================
+
+PORT=3000
+
+# =========================================
+# JWT CONFIG
+# =========================================
+
+JWT_SECRET=your_super_secret_jwt_key
+
+# =========================================
+# GOOGLE OAUTH
+# =========================================
+
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+# =========================================
+# GITHUB OAUTH
+# =========================================
+
+GITHUB_CLIENT_ID=your_github_client_id
+GITHUB_CLIENT_SECRET=your_github_client_secret
+
+# =========================================
+# FACEBOOK OAUTH
+# =========================================
+
+FACEBOOK_APP_ID=your_facebook_app_id
+FACEBOOK_CLIENT_SECRET=your_facebook_client_secret
+
+# =========================================
+# APPLE OAUTH
+# =========================================
+
+APPLE_CLIENT_ID=your_apple_client_id
+APPLE_CLIENT_SECRET=your_apple_client_secret
+
+# =========================================
+# GMAIL PROVIDER
+# =========================================
+
+GMAIL_USER=your_email@gmail.com
+GMAIL_PASS=your_gmail_app_password
+```
+
+---
+
 # Roadmap
 
 - Refresh Tokens
