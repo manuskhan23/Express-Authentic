@@ -1,6 +1,6 @@
 {
   "name": "express-authentic",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Production-ready authentication and OAuth utility package",
   "type": "module",
   "main": "dist/index.js",
