@@ -1,0 +1,5 @@
+- name: Build project
+        run: npm run build
+
+      - name: Publish to npm
+        run: npm publish --access public
